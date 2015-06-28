@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		080A5F231B26385700BCB998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F221B26385700BCB998 /* AppDelegate.swift */; };
-		080A5F251B26385700BCB998 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F241B26385700BCB998 /* FirstViewController.swift */; };
-		080A5F271B26385700BCB998 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F261B26385700BCB998 /* SecondViewController.swift */; };
+		080A5F251B26385700BCB998 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F241B26385700BCB998 /* MapViewController.swift */; };
+		080A5F271B26385700BCB998 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F261B26385700BCB998 /* TableViewController.swift */; };
 		080A5F2A1B26385700BCB998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080A5F281B26385700BCB998 /* Main.storyboard */; };
 		080A5F2C1B26385700BCB998 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080A5F2B1B26385700BCB998 /* Images.xcassets */; };
 		080A5F2F1B26385700BCB998 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 080A5F2D1B26385700BCB998 /* LaunchScreen.xib */; };
 		080A5F3B1B26385800BCB998 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F3A1B26385800BCB998 /* OnTheMapTests.swift */; };
+		080A5F491B263D1A00BCB998 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F481B263D1A00BCB998 /* LoginViewController.swift */; };
+		080A5F4B1B2738F300BCB998 /* OTMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F4A1B2738F300BCB998 /* OTMConstants.swift */; };
+		080A5F4D1B27397E00BCB998 /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F4C1B27397E00BCB998 /* OTMClient.swift */; };
+		080A5F531B31D66900BCB998 /* StudentInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A5F521B31D66900BCB998 /* StudentInformation.swift */; };
+		08785F731B3354950045A136 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08785F721B3354950045A136 /* TabBarController.swift */; };
+		087D66BD1B3CB7C500C68BA3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087D66BC1B3CB7C500C68BA3 /* User.swift */; };
+		08983FC21B3B13DC00375982 /* InformationControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08983FC11B3B13DC00375982 /* InformationControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +37,21 @@
 		080A5F1D1B26385700BCB998 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		080A5F211B26385700BCB998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		080A5F221B26385700BCB998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		080A5F241B26385700BCB998 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		080A5F261B26385700BCB998 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		080A5F241B26385700BCB998 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		080A5F261B26385700BCB998 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		080A5F291B26385700BCB998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		080A5F2B1B26385700BCB998 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		080A5F2E1B26385700BCB998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		080A5F341B26385800BCB998 /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		080A5F391B26385800BCB998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		080A5F3A1B26385800BCB998 /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
+		080A5F481B263D1A00BCB998 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		080A5F4A1B2738F300BCB998 /* OTMConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTMConstants.swift; sourceTree = "<group>"; };
+		080A5F4C1B27397E00BCB998 /* OTMClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
+		080A5F521B31D66900BCB998 /* StudentInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInformation.swift; sourceTree = "<group>"; };
+		08785F721B3354950045A136 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		087D66BC1B3CB7C500C68BA3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		08983FC11B3B13DC00375982 /* InformationControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +93,10 @@
 		080A5F1F1B26385700BCB998 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
+				080A5F461B2639D700BCB998 /* Controller */,
+				080A5F451B2639B400BCB998 /* View */,
+				080A5F441B2639A700BCB998 /* Model */,
 				080A5F221B26385700BCB998 /* AppDelegate.swift */,
-				080A5F241B26385700BCB998 /* FirstViewController.swift */,
-				080A5F261B26385700BCB998 /* SecondViewController.swift */,
-				080A5F281B26385700BCB998 /* Main.storyboard */,
 				080A5F2B1B26385700BCB998 /* Images.xcassets */,
 				080A5F2D1B26385700BCB998 /* LaunchScreen.xib */,
 				080A5F201B26385700BCB998 /* Supporting Files */,
@@ -93,6 +107,8 @@
 		080A5F201B26385700BCB998 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				080A5F471B263BC000BCB998 /* Images */,
+				080A5F281B26385700BCB998 /* Main.storyboard */,
 				080A5F211B26385700BCB998 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +129,43 @@
 				080A5F391B26385800BCB998 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		080A5F441B2639A700BCB998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				080A5F4A1B2738F300BCB998 /* OTMConstants.swift */,
+				080A5F4C1B27397E00BCB998 /* OTMClient.swift */,
+				080A5F521B31D66900BCB998 /* StudentInformation.swift */,
+				087D66BC1B3CB7C500C68BA3 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		080A5F451B2639B400BCB998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		080A5F461B2639D700BCB998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				080A5F241B26385700BCB998 /* MapViewController.swift */,
+				080A5F481B263D1A00BCB998 /* LoginViewController.swift */,
+				080A5F261B26385700BCB998 /* TableViewController.swift */,
+				08785F721B3354950045A136 /* TabBarController.swift */,
+				08983FC11B3B13DC00375982 /* InformationControllerView.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		080A5F471B263BC000BCB998 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				080A5F271B26385700BCB998 /* SecondViewController.swift in Sources */,
+				080A5F491B263D1A00BCB998 /* LoginViewController.swift in Sources */,
+				080A5F4D1B27397E00BCB998 /* OTMClient.swift in Sources */,
+				080A5F271B26385700BCB998 /* TableViewController.swift in Sources */,
+				080A5F531B31D66900BCB998 /* StudentInformation.swift in Sources */,
+				08983FC21B3B13DC00375982 /* InformationControllerView.swift in Sources */,
 				080A5F231B26385700BCB998 /* AppDelegate.swift in Sources */,
-				080A5F251B26385700BCB998 /* FirstViewController.swift in Sources */,
+				08785F731B3354950045A136 /* TabBarController.swift in Sources */,
+				080A5F4B1B2738F300BCB998 /* OTMConstants.swift in Sources */,
+				080A5F251B26385700BCB998 /* MapViewController.swift in Sources */,
+				087D66BD1B3CB7C500C68BA3 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +473,7 @@
 				080A5F401B26385800BCB998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		080A5F411B26385800BCB998 /* Build configuration list for PBXNativeTarget "OnTheMapTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +482,7 @@
 				080A5F431B26385800BCB998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

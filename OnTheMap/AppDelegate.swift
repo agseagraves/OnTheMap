@@ -11,8 +11,14 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var students: [StudentInformation] = [StudentInformation]()
+    var user: User?
     var window: UIWindow?
 
+    var userKey: String? = nil
+    var userObjectId: String? = nil
+    var userMapped = false
+    var userLink: String? = nil
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
